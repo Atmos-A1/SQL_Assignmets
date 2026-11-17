@@ -1,0 +1,4 @@
+SELECT SKU, SKU_DEscription, WarehouseID
+FROM INVENTORY
+WHERE QuantityOnHand BETWEEN 1 AND 10
+ORDER BY SKU, WarehouseID DESC;
